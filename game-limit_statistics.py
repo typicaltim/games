@@ -17,7 +17,7 @@ for number in range(rollmax):
     # Roll the die/dice
     myarray = [random.randrange(1,7) for numberofdie in range(diecount)]
     # If it's Yahztzee, do the following:
-    if 6 == myarray[1] == myarray[2] == myarray[3] == myarray[4] == myarray[0]:
+    if 6 == dieroll[1] == dieroll[2] == dieroll[3] == dieroll[4] == dieroll[0]:
         yahtzeecounter += 1
 
 # Print the results
